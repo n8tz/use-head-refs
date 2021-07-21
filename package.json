@@ -1,0 +1,31 @@
+{
+  "name": "use-ref-map",
+  "version": "1.0.0",
+  "description": "Simple React Hook to keep reference of last useful values",
+  "license": "MIT",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">= 8.11.4",
+    "npm": ">= 5.6.0"
+  },
+  "author": "N8tz <n8tz.js@gmail.com>",
+  "maintainers": [
+    "Nathan Braun <n8tz.js@gmail.com>"
+  ],
+  "sponsors": [
+    "Nathan Braun <n8tz.js@gmail.com>"
+  ],
+  "contributors": [
+    "N8tz (https://github.com/N8tz)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n8tz/use-ref-map"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "dependencies": {
+  }
+}
