@@ -1,9 +1,9 @@
 <h1 align="center">
- useRefMap ( React hook )
+ useRefsMap ( React hook )
 </h1>
 <p align="center">
-<a href="https://www.npmjs.com/package/use-ref-map">
-<img src="https://img.shields.io/npm/v/use-ref-map.svg" alt="NPM" /></a>
+<a href="https://www.npmjs.com/package/use-refs-map">
+<img src="https://img.shields.io/npm/v/use-refs-map.svg" alt="NPM" /></a>
 </p>
 
 ## What the purpose ?
@@ -20,7 +20,7 @@ This Hook, allow us to keep functions unique as they can access the last value t
 ## Code ( so simple )
 
 ```jsx
-export default function useRefMap( refs ) {
+export default function useRefsMap( refs ) {
 	const scope = React.useRef({}).current;
 	
 	Object.assign(scope, refs);
@@ -32,6 +32,8 @@ export default function useRefMap( refs ) {
 ## Sample
 
 ```jsx
+import useRefsMap from "use-refs-map";
+
 export default ( {
 	                 style,
 	                 ...props
@@ -50,7 +52,7 @@ export default ( {
 			),
 			[]
 		),
-		locals                            = useRefMap(
+		locals                            = useRefsMap(
 			{
 				slideQuery,
 				selectedIndex

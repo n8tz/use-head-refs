@@ -25,7 +25,7 @@
  */
 
 const React    = require("react");
-module.exports = function useRefMap( refs ) {
+module.exports = function useRefsMap( refs ) {
 	const scope = React.useRef({}).current;
 	
 	Object.assign(scope, refs);

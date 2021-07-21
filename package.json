@@ -1,5 +1,5 @@
 {
-  "name": "use-ref-map",
+  "name": "use-refs-map",
   "version": "1.0.0",
   "description": "Simple React Hook to keep reference of last useful values",
   "license": "MIT",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/n8tz/use-ref-map"
+    "url": "https://github.com/n8tz/use-refs-map"
   },
   "devDependencies": {},
   "peerDependencies": {
