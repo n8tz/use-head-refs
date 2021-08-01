@@ -1,5 +1,5 @@
 <h1 align="center">
- useRefsMap ( React hook )
+ useHeadRefs ( React hook )
 </h1>
 <p align="center">
 <a href="https://www.npmjs.com/package/use-refs-map">
@@ -8,7 +8,7 @@
 
 ## What the purpose ?
 
-useRefMap is a simple React Hook to keep the last values & objects references on a constant hashmap/object.
+useHeadRefs is a simple React Hook to keep the last values & objects references on a constant hashmap/object.
 
 Ok, but what the purpose ?
 
@@ -20,7 +20,7 @@ This Hook, allow us to keep functions unique as they can access the last value t
 ## Code ( so simple )
 
 ```jsx
-export default function useRefsMap( refs ) {
+export default function useHeadRefs( refs ) {
 	const scope = React.useRef({}).current;
 	
 	Object.assign(scope, refs);
@@ -32,7 +32,7 @@ export default function useRefsMap( refs ) {
 ## Sample
 
 ```jsx
-import useRefsMap from "use-refs-map";
+import useHeadRefs from "use-head-refs";
 
 export default ( {
 	                 style,
@@ -46,13 +46,7 @@ export default ( {
 			}
 		),
 		[selectedIndex, setSelectedIndex] = React.useState(0),
-		styles                            = React.useMemo(
-			() => (
-				{}
-			),
-			[]
-		),
-		locals                            = useRefsMap(
+		locals                            = useHeadRefs(
 			{
 				slideQuery,
 				selectedIndex

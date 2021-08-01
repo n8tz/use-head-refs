@@ -1,5 +1,5 @@
 {
-  "name": "use-refs-map",
+  "name": "use-head-refs",
   "version": "1.0.0",
   "description": "Simple React Hook to keep reference of last useful values",
   "license": "MIT",
