@@ -2,8 +2,8 @@
  useHeadRefs ( React hook )
 </h1>
 <p align="center">
-<a href="https://www.npmjs.com/package/use-refs-map">
-<img src="https://img.shields.io/npm/v/use-refs-map.svg" alt="NPM" /></a>
+<a href="https://www.npmjs.com/package/use-head-refs">
+<img src="https://img.shields.io/npm/v/use-head-refs.svg" alt="NPM" /></a>
 </p>
 
 ## What the purpose ?

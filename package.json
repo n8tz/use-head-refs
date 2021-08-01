@@ -1,6 +1,6 @@
 {
   "name": "use-head-refs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple React Hook to keep reference of last useful values",
   "license": "MIT",
   "main": "src/index.js",
